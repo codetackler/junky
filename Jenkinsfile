@@ -9,6 +9,7 @@ pipeline {
       steps {
         sh '''
             echo "Goodbye Cruel World"
+            sleep 120
         '''
       }
     }
