@@ -8,7 +8,7 @@ pipeline {
     stage('Junky') {
       steps {
         sh '''
-            echo "Goodbye Cruel World"
+            echo "Hola"
             sleep 30
         '''
       }
