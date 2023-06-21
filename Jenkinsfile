@@ -9,7 +9,7 @@ pipeline {
       steps {
         sh '''
             echo "Hola"
-            sleep 30
+            sleep 10
         '''
       }
     }
