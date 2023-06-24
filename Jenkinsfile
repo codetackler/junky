@@ -1,8 +1,7 @@
 pipeline {
   agent any
   triggers {
-    upstream(upstreamProjects: "janky/master",
-             threshold: hudson.model.Result.SUCCESS)
+    fanin(upstreamProjects: "janky/master")
   }
   parameters {
     extendedChoice(
